@@ -17,7 +17,7 @@ async def cleanup_background_tasks(app):
 
 
 if __name__ == '__main__':
-    load_dotenv(verbose=True)
+    load_dotenv()
 
     app = web.Application()
     app.add_routes(routes)
