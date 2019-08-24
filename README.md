@@ -7,8 +7,13 @@ Refer to the `.env.example` file for setting configuration such as listening ser
 # Requirements
 * Python >= 3.5.3
 
-# Install
-* Install and with pipenv
+# Installation
+* Install with pip
+  ```
+  pip install -r requirements.txt
+  python app.py
+  ```
+* Install and run and with pipenv
   ```
   pipenv install
   pipenv run python app.py
