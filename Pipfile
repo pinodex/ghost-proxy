@@ -9,7 +9,6 @@ verify_ssl = true
 python-dotenv = "*"
 aiohttp = "*"
 aioredis = "*"
-ujson = "*"
 
 [requires]
 python_version = "3.7"
