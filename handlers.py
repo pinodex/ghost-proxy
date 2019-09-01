@@ -6,6 +6,12 @@ from aiohttp import web, ClientSession
 routes = web.RouteTableDef()
 
 
+@routes.get('/')
+async def index(request):
+    """Index page handler"""
+    return web.Response(text='Ok')
+
+
 @routes.get('/posts')
 async def posts(request):
     """Get and transform blog posts
